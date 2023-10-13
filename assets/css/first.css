@@ -48,6 +48,13 @@
     border:none;
     border-radius: 23px;
     padding:12px 28px 12px 28px;
+    font-weight: 700;
+}
+
+.firstlook .content .textcontent button:hover{
+    color: rgb(1, 1, 36);
+    background-color: white;
+    font-size: 20px;
 }
 
 .firstlook .content .textcontent .socialmedia{

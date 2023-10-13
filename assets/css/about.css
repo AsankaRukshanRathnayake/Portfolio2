@@ -1,0 +1,50 @@
+.about{
+    padding:10% 10% 5% 10%;
+    width:80%;
+}
+
+.about .basic{
+    display:flex;
+}
+
+.about .basic img{
+    max-width:30%;
+    border-radius:170px;
+}
+
+.about .basic .content{
+    width:60%;
+    padding-left:10%;
+    margin:auto;
+}
+
+.about .basic .content h2{
+    color:rgb(1, 1, 36);
+    font-size:35px;
+    font-weight: 800;
+}
+
+.about .basic .content h3{
+    color:rgb(5, 104, 154);
+    font-size:25px;
+    font-weight: 800;
+}
+
+.about .basic .content p{
+    font-size: 20px;
+}
+
+.about .basic .content button{
+    color: white;
+    background-color: rgb(5, 104, 154);
+    font-size: 20px;
+    border:none;
+    border-radius: 23px;
+    padding:12px 28px 12px 28px;
+    font-weight: 700;
+}
+
+.about .basic .content button:hover{
+    color:white;
+    background-color: rgb(1, 1, 36);
+}
