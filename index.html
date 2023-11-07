@@ -12,10 +12,10 @@
     <body>
         <div class="firstlook">
             <div class="head">
-                <a href="#">About</a>
-                <a href="#">Projects</a>
-                <a href="#">Blog</a>
-                <a href="#">Contact</a>
+                <a href="#about">About</a>
+                <a href="https://github.com/AsankaRukshanRathnayake/" target="_blank">Projects</a>
+                <a href="https://medium.com/@AsankaRukshanRathnayake">Blog</a>
+                <a href="#contact">Contact</a>
             </div>
 
             <div class="content">
@@ -26,14 +26,14 @@
 
                     <br><br>
 
-                    <button>Download CV</button>
+                    <button onclick="openNewTab('https://drive.google.com/file/d/1xkH6NCG6NnJ_KR-c_e2UyqOfUf5Ljx9A/view?usp=sharing')">Download CV</button>
 
                     <br><br>
 
                     <div class="socialmedia">
-                        <button><i class="fa fa-github"></i></button>
-                        <button><i class="fa fa-linkedin-square"></i></button>
-                        <button><i class="fa fa-medium"></i></button>
+                        <button onclick="openNewTab('https://github.com/AsankaRukshanRathnayake/')"><i class="fa fa-github"></i></button>
+                        <button onclick="openNewTab('https://www.linkedin.com/in/asankarukshanrathanayake')"><i class="fa fa-linkedin-square"></i></button>
+                        <button onclick="openNewTab('https://medium.com/@AsankaRukshanRathnayake')"><i class="fa fa-medium"></i></button>
                     </div>
                 </div>
 
@@ -42,7 +42,7 @@
             </div>
         </div>
 
-        <div class="about">
+        <div class="about" id="about">
             <div class="basic">
                 <img src="assets/images/profile3.png" alt="">
 
@@ -56,7 +56,7 @@
                     </p>
 
                     <br>
-                    <button>Download CV</button>
+                    <button onclick="openNewTab('https://drive.google.com/file/d/1xkH6NCG6NnJ_KR-c_e2UyqOfUf5Ljx9A/view?usp=sharing')">Download CV</button>
                 </div>
             </div>
 
@@ -74,6 +74,10 @@
 
             </div>
 
+            <!--
+
+            
+
             <div class="timeline">
                 <div class="container left">
                     <div class="content">
@@ -89,10 +93,12 @@
                     </div>
                 </div>
             </div>
+
+            -->
         </div>
 
-        <div class="contact">
-            <form action="">
+        <div class="contact" id="contact">
+            <form action="" method="POST">
                 <input type="text" name="name" placeholder="Enter Name"><br><br>
                 <input type="email" name="email" placeholder="Enter Email"><br><br>
                 <input type="phone" name="phonenumber" placeholder="Enter Phone Number"><br><br>
@@ -103,10 +109,12 @@
             </form>
 
             <div class="socialmedia">
-                <button><i class="fa fa-github"></i></button>
-                <button><i class="fa fa-linkedin-square"></i></button>
-                <button><i class="fa fa-medium"></i></button>
+                <button onclick="openNewTab('https://github.com/AsankaRukshanRathnayake/')"><i class="fa fa-github"></i></button>
+                <button onclick="openNewTab('https://www.linkedin.com/in/asankarukshanrathanayake')"><i class="fa fa-linkedin-square"></i></button>
+                <button onclick="openNewTab('https://medium.com/@AsankaRukshanRathnayake')"><i class="fa fa-medium"></i></button>
             </div>
         </div>
+
+        <script src="assets/js/functions.js"></script>
     </body>
 </html>

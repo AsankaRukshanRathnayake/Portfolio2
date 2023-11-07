@@ -14,6 +14,21 @@
     width:50%;
 }
 
+.contact .socialmedia button{
+    border:none;
+    background-color: white;
+    font-size: 40px;
+    margin-left:20px;
+}
+
+.contact .socialmedia button{
+    border:none;
+    
+    background-color: white;
+    font-size: 40px;
+    margin-left:20px;
+}
+
 .contact form input, textarea{
     color:rgb(1, 1, 36);
     background-color: white;
